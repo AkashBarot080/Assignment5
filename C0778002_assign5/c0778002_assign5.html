@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>C0778002_assign5</title>
+    <link rel="stylesheet" href="./c0778002_assign5.css" type="text/css">
+    <script src="c0778002_assign5.js"></script>
+</head>
+
+<body>
+    <div style="display: inline-block;border: 1px solid;border-radius: 5px;background-color: #f4f7f8;height: 580px;width: 595px;">
+        <marquee scrollamount="15" behavior="alternate"><h1><em>Currency Calculator</em></h1></marquee><hr>
+        <h1><i>CAD to USD</i></h1>
+        <div style="padding: 5px 50px;">
+            <label for="" style="width: 100px;"><strong>CAD:</strong></label>
+            <input type="text" id="CAD" placeholder="Enter CAD Currency" onkeydown="CAD_func()" style="margin-left: 15px;margin-bottom: 50px;" required=""> <br>
+            <label for="" style="width: 100px;"><strong>USD:</strong></label>
+            <input type="text" id="USD" placeholder="Converted USD Currency" readonly="readonly" style="margin-left: 15px;">
+        </div>
+        <p id="invalidMsg"></p>
+        <div style="padding: 5px 50px;">
+            <button onClick="Converter()" align="center">Convert CAD to USD</button><br><br>
+        </div>
+        <hr>
+        <div style="padding: 5px 50px;">
+            <button onClick="Season()" align="center">Check Season</button><br><br>
+        </div>
+        <img src="giphy.gif" align="center"
+        style="width: 450px;
+        height: 110px;">   
+    </div>
+</body>
+<footer>
+  <strong>Akash Barot - Copyright@C0778002, All rights reserved.</strong>
+</footer>
+</html>
